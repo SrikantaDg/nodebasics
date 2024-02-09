@@ -3,7 +3,7 @@ function routeRequest(req,res){
     if(req.url=='/'){
      res.write('<html>');
      res.write('<head><title></title></head>');
-     res.write('<body><form action="/message" method="post"><input type="text" name="message"/><button>submit</button></form></body>')
+     res.write('<body><form action="/message" method="post"><input type="text" name="message"/><button>Send</button></form></body>')
      res.write('<html>');
      return res.end();
     }
